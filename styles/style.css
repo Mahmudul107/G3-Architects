@@ -1,0 +1,171 @@
+/* -----------------Main Font------------- */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0%;
+}
+
+.header {
+    background-color: rgba(219, 237, 255, 1);
+    margin: 577px 24px 24opx;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding-left: 25px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+main h1{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+small {
+    color: #727272;
+}
+
+.primary-btn {
+    background-color: #FF900E;
+    font-size: 20px;
+    Width: 180px;
+    Height: 64px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    padding: 25px;
+    color: black;
+}
+
+.heading-title {
+    display: flex;
+    justify-content: center;
+    margin: -6px;
+}
+
+#heading-text {
+    align-items: center;
+    text-align: center;
+    color: #727272;
+    margin: 20px 150px;
+}
+
+#heading-btn {
+    text-align: center;
+}
+
+.some-fact-container {
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.some-fact-container small {
+    color: #727272;
+
+}
+
+.banner-img img {
+    width: 95%;
+    margin: 40px 30px;
+    padding-left: 10px;
+    
+}
+
+
+/*------------ Feature Styles--------- */
+
+.feature-container{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+}
+.experience-text-title{
+    
+}
+.experiences-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.experience-image{
+    width: 800px;
+    height: 1059px;
+}
+/* -------- My experiences------------ */
+
+.experience-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.experiences-text{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*---------------------------------
+------------- Footer Item---------- */
+
+.footer-title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.icon-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-container {
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    height: 140px;
+    width: 140px;
+
+}
+
+.icon-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 40px 150px;
+}
+
+.logo-icon img {
+    width: 80px;
+}
+
+#footer-text {
+    align-items: center;
+    text-align: center;
+    color: #727272;
+    background-color: rgba(219, 237, 255, 1);
+    margin: 30px 130px;
+    padding: 20px;
+    border-radius: 5px;
+}
