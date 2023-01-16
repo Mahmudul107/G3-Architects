@@ -287,5 +287,64 @@ small {
 /*------------- Responsive--------- */
 
 @media only screen and ( max-width: 576px) {
-    
+    .header{
+        width: 100%;
+    }
+    h1{
+        text-align: center;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: row;
+        margin-left: -300px;
+        margin-bottom: -200px;
+        }
+    .feature-image, .experience-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-container{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .experiences{
+        font-size: 50vw;
+    }
+    .icon-logo{
+        display: flex;
+        flex-direction: column;
+    }
+    .extra-container img{
+        height: 50%;
+        width: 59%;
+    }
+    .extra-title{
+        font-size: 10px;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading-title{
+        font-weight: 300px;
+        text-align: center;
+    }
+    #heading-text{
+        
+    }
+    .some-fact-container{
+        font-weight: 700px;
+        font-size: 20px;
+    }
+    .extra-container img{
+        height: 100%;
+        width: 99%;
+    }
+}
+
+@media only screen and ( max-width: 576px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
